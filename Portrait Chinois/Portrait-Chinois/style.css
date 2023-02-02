@@ -1,0 +1,421 @@
+
+/*Police*/
+@font-face {
+  font-family: 'SfPro Display';
+  src: url(Police/SFPRODISPLAYREGULAR.woff) format(woff);
+  src: url(Police/SFPRODISPLAYREGULAR.woff2)format(woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/*Fond D'ecran*/
+body {
+  background-image: url("img/fond.jpg");
+  height: 100vh;
+  background-size: 100%;
+}
+
+h1 {
+  font-family: 'SfPro Display';
+  font-style: normal;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-weight: bold 900;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#check h1{
+    font-family: 'SfPro Display';
+    font-style: normal;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: bold 900;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+h2 {
+  font-family: 'SfPro Display';
+  font-style: normal;
+  text-align: center;
+  color: white;
+  font-family: 'Nerko One', cursive;
+  font-size: 40px;
+  font-weight: bold 400;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+
+div {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+div {
+  font-family: 'SfPro Display';
+  font-style: normal;
+  color: #fff;
+
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+h4 a{
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+a:hover{
+  color: #5d5d5d;
+}
+
+#listeanalogies {
+  margin-top: 100px;
+}
+
+/* Acceuil */
+
+.homepage {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage .name {
+  position: absolute;
+  top: 0;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+main {
+  height: 100vh;
+}
+
+/*Carousel*/
+
+.carousel {
+  display: flex;
+  padding: 50px;
+  width: 80%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-item {
+  visibility: visible;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-justify-content: flex-end;
+  position: relative;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  position: absolute;
+  z-index: 0;
+  transition: 0.6s all linear;
+}
+
+.carousel-item__info {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column;
+
+  order: 1;
+  left: 0;
+  margin: auto;
+  padding: 0 40px;
+  width: 40%;
+
+}
+
+.carousel-item__image {
+  width: 100%;
+  height: 100%;
+  order: 2;
+  align-self: flex-end;
+  flex-basis: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  transform: translateX(100%);
+  transition: 0.6s all ease-in-out;
+}
+
+.carousel-item__subtitle {
+  font-family: 'SfPro Display';
+  font-style: normal;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #FF5233;
+  font-weight: 900;
+  transform: translateY(25%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s all ease-in-out;
+}
+
+.carousel-item__title {
+  margin: 15px 0 0 0;
+  transform: translateY(25%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all ease-in-out;
+}
+
+.carousel-item__description {
+  transform: translateY(25%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all ease-in-out;
+  margin: 35px 0 35px 0;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.carousel-item--1 .carousel-item__image {
+  background-image: url('img/turquoise.jpeg');
+}
+
+.carousel-item--2 .carousel-item__image {
+  background-image: url('img/Album.jpg');
+}
+
+.carousel-item--3 .carousel-item__image {
+  background-image: url('img/Ronaldo.jpg');
+}
+
+.carousel-item--4 .carousel-item__image {
+  background-image: url('img/FILM.jpg');
+}
+
+.carousel-item--5 .carousel-item__image {
+  background-image: url('img/Avion.jpeg');
+}
+
+.carousel-item--6 .carousel-item__image {
+  background-image: url('img/Chaussure.jpeg');
+}
+
+.carousel-item--7 .carousel-item__image {
+  background-image: url('img/kerchak.jpeg');
+}
+
+.carousel-item__btn {
+  width: 35%;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin: 0;
+  width: 35%;
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(25%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all ease-in-out;
+  padding: 10px 0;
+}
+
+.carousel__nav {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 40%;
+}
+
+.carousel__icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  fill: #5d5d5d;
+}
+
+/* Fleche pour naviguer */
+
+.carousel__arrow {
+  cursor: pointer;
+  display: inline-block;
+  padding: 11px 15px;
+  position: relative;
+  mix-blend-mode: exclusion;
+
+}
+
+.carousel__arrow:nth-child(1):after {
+  content: '';
+  right: -3px;
+  position: absolute;
+  width: 1px;
+  background-color: #fff;
+  height: 14px;
+  top: 50%;
+  margin-top: -7px;
+}
+
+.active {
+  z-index: 1;
+  display: flex;
+  visibility: visible;
+}
+
+.active .carousel-item__subtitle,
+.active .carousel-item__title,
+.active .carousel-item__description,
+.active .carousel-item__btn {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.6s all ease-in-out;
+  visibility: visible;
+}
+
+
+
+.active .carousel-item__image {
+  transition: 0.6s all ease-in-out;
+  transform: translateX(0);
+}
+
+
+
+/*PopUp */
+
+.popup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-size: cover;
+  border: solid red;
+  width: 300px;
+  z-index: 10000;
+}
+
+footer {
+  height: 8em;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* class pour les justification de texte */
+.justify {
+  text-align: center;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 800px;
+  overflow-wrap: break-word;
+
+}
+
+/*formulaire*/
+form {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.formu {
+  display: flex;
+  margin-top: 150px;
+}
+
+.styleform {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+}
+
+input[type="submit"] {
+  border: none;
+  font-size: 1.1rem;
+  box-shadow: 4px 4px black;
+  cursor: pointer;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+input:required {
+  border: 2px solid brown;
+}
+
+input:required:valid {
+  border: 2px solid brown;
+}
+
+.arg {
+  height: 100px;
+  overflow-wrap: break-word;
+}
+
+.formbtn {
+  padding-top: 20px;
+}
+
+h3 {
+  margin: 10px;
+  color: #fff;
+  font-family: 'SfPro Display';
+  font-style: normal;
+}
+
+textarea {
+  resize: none;
+}
+
+/* mentions légale */
+.volet-visible {
+  text-align: center;
+  color: #ffffff;
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.volet-invisible {
+  text-align: center;
+  color: #ffffff;
+  height: 3em;
+  overflow: hidden;
+  cursor: pointer;
+}
