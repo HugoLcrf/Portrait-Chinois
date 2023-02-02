@@ -1,0 +1,245 @@
+*{
+
+  scroll-behavior: smooth;
+}
+
+body{
+  background: linear-gradient(-45deg, #621c1c, #651634, #0b3848, #0c483a);
+	background-size: 1000% 1000%;
+	animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Nerko One', cursive;
+  font-size: 60px;
+  font-weight: bold 900;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+h2{
+  text-align: center;
+  color: white;
+  font-family: 'Nerko One', cursive;
+  font-size: 40px;
+  font-weight: bold 400;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+div{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+div{
+  color: grey;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Lora', serif;
+}
+
+
+.homepage{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage .name{
+  position: absolute;
+  top: 0;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+main{
+  height: 100vh;
+}
+
+.group {
+  text-align: center;
+  position: relative;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.item-text{
+  background-color: rgba(0, 0, 0, 0.568);
+  transition: all 0.1s ease-in-out;
+  transform: scale(0);
+}
+
+.item:hover .item-text{
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.8);
+}
+
+.popup{
+  background-image: url("./img/Carte.png");
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  background-size: cover;
+  border: solid red;
+  width: 300px;
+
+  z-index : 10000;
+}
+
+.item {
+  width: 15vw;
+  height: 75vh;
+  background-position: center;
+  background-size: 75vh;
+  margin: 1vw;
+  border-radius: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+
+
+.item:nth-child(1){
+  background-image: url(img/Album.jpg);
+}
+
+.item:nth-child(2){
+  background-image: url(img/Album.jpg);
+}
+
+.item:nth-child(3){
+  background-image: url(img/Album.jpg);
+}
+
+.item:nth-child(4){
+  background-image: url(img/Album.jpg);
+}
+
+.item:nth-child(5){
+  background-image: url(img/Album.jpg);
+}
+
+.item:nth-child(6){
+  background-image: url(img/Album.jpg);
+}
+
+.item:nth-child(7){
+  background-image: url(img/Album.jpg);
+}
+
+
+footer{
+  height: 8em;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+/* class pour les justification de texte */
+.justify{
+  text-align: center;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width:  90%;
+  max-width: 800px;
+  overflow-wrap: break-word;
+
+}
+/* mentions légale */
+.volet-visible{
+  text-align: center;
+  color: #ffffff;
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.volet-invisible{
+  text-align:center;
+  color: #ffffff;
+  height: 3em;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/*formulaire*/
+form{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.formu{
+  display: flex;
+  margin: 0 auto;
+}
+
+.styleform{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+}
+input[type="submit"]{
+  border: none;
+    font-size: 1.1rem;
+  box-shadow: 4px 4px black;
+  cursor: pointer;
+}
+
+input{
+  width: 300px;
+  height: 35px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+input:required{
+  border: 2px solid brown;
+}
+
+input:required:valid{
+  border: 2px solid brown;
+}
+.arg{
+  height: 100px;
+  overflow-wrap: break-word;
+}
+.formbtn{
+  padding-top: 20px;
+}
+h3{
+  margin: 10px;
+}
+textarea {
+  resize: none;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

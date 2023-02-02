@@ -1,0 +1,51 @@
+[
+    {
+        "analogie": "une Couleur",
+        "Valeuranalogie": "Turquoise",
+        "justify": "Depuis petit j’aime beaucoup la mer, le turquoise me rappel les eaux turquoise des Ile paradisiaque qui me provoque un sentiment de pureté et la fluidité.",
+        "img": "img/turquoise.jpeg",
+        "id": "couleur"
+        },
+    {
+        "analogie": "un Album",
+        "Valeuranalogie": "Nostalgia+",
+        "justify": "Je serai Nostalgia+ de Green Montana, il se pose en artiste déterminé, qui se construit une identité forte en même temps qu’une fan-base solide. L’argent, la réussite, les relations ambiguës avec les femmes et les hommes, sont autant de thèmes qui construisent le personnage Green",
+        "img": "img/album.jpeg",
+        "id": "album"
+    },
+    {
+        "analogie": "un joueur de foot",
+        "Valeuranalogie": "Ronaldo",
+        "justify": "Vous allez me dire pourquoi Ronaldo, parceque c'est le symbole de l'acharnement, du mental, ,de la regularité et du travail. Un joueur qui malgres les defis c'est toujours relever et a performer dans sont sports pour sa nation et ses clubs. C'est donc un model qui pousse les gens a suivre leurs reves grace a leur determinations.",
+        "img": "img/Ronaldo.jpeg",
+        "id": "Joueur de foot"
+    },
+    {
+        "analogie": "un film",
+        "Valeuranalogie": "Chicken Little",
+        "justify": "Etant mon film prefere quand j'etait petit cela ma ouvert l'esprit et ma appris des principes comme ne pas croire les autres sur parole ou bien  ne tirez pas de conclusions erronées à partir de données insuffisantes qui je trouve sont des principes importants dans la societer/",
+        "img": "img/film.webp",
+        "id": "Film"
+    },
+    {
+        "analogie": "un transport",
+        "Valeuranalogie": "Avion",
+        "justify": "Vous allez trouvez ca etonnant mais je serai un avion, parcequ'il vol et permet de faire des grands trajets. Ayant eu la chance de voyager cela est devenu une passion qui ma permit de decouvrir des traditions, populations. C'estt pour cela que je serai un avion pour voler et continue de decouvrire les richesses du monde",
+        "img": "img/Avion.jpeg",
+        "id": "Avion"
+    },
+    {
+        "analogie": "Des chaussures",
+        "Valeuranalogie": "Chaussures",
+        "justify": "Symbole du basket des années 90, la jordan 4 sont une paires de chaussures qui ont revolutionner le monde de la Sneaker. Actuellement devenu un element de mode , Je suis tomber amoureux de la JORDAN 4 x A ma maniere. Grace a ca qualiter de fabriquation ..",
+        "img": "img/chaussures.jpeg",
+        "id": "Jordan4"
+    },
+    {
+        "analogie": "un artiste",
+        "Valeuranalogie": "Kerchak",
+        "justify": "Comme ",
+        "img": "img/kerchak.jpeg",
+        "id": "kerchak"
+    }
+]
